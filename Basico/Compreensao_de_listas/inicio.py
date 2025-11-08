@@ -25,6 +25,6 @@ print(numeros_dobrados_3)
 
 #com nomes 
 nomes = ["Sara", "Malu", "Clarisse", "Saulo", "Samuel"]
-nomes_maiusculos = [nome.upper() for nome in nomes]
+nomes_maiusculos = [nome.upper() for nome in nomes if nome[0] == "S"]
 
 print(nomes_maiusculos)
