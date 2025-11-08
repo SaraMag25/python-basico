@@ -22,3 +22,9 @@ def dobro(numero_3):
 numeros_dobrados_3 = [dobro(numero_3) for numero_3 in numeros_3]
 
 print(numeros_dobrados_3)
+
+#com nomes 
+nomes = ["Sara", "Malu", "Clarisse", "Saulo", "Samuel"]
+nomes_maiusculos = [nome.upper() for nome in nomes]
+
+print(nomes_maiusculos)
