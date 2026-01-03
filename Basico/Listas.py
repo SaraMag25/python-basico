@@ -10,7 +10,9 @@ Filmes.insert(1, 'Lego') #inserindo onde eu quisr
 Filmes.pop() #deleta o ultimo
 del Filmes[1] #remove o que voce quiser
 Carros.remove(10) #baseado em valor
-Filmes.count('A bruxa')
 Filmes.append('A bruxa')
+print(Filmes.count('A bruxa'))
 Filmes.reverse()
 Filmes.sort()
+print(Filmes)
+print(Carros)
