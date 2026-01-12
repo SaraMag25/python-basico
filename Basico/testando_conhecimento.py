@@ -41,6 +41,3 @@ funcionarios = [
     FuncionarioCLT("Ana", 3000),
     Freelancer("Carlos", 120, 50)
 ]
-
-for f in funcionarios:
-    print(f"{f.nome} receberá R$ {f.calcular_pagamento():.2f}")
